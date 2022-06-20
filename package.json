@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/vuetify",
-  "version": "1.12.4",
+  "version": "1.12.5",
   "description": "Vuetify Module for Nuxt.js",
   "license": "MIT",
   "contributors": [
@@ -22,7 +22,7 @@
     "build": "tsc",
     "lint": "eslint --ext .ts,.js,.vue .",
     "test": "yarn lint && jest",
-    "release": "yarn test && yarn build && standard-version && git push --follow-tags && npm publish",
+    "release": "yarn test && yarn build && standard-version && git push --follow-tags",
     "prepare": "husky install"
   },
   "files": [
